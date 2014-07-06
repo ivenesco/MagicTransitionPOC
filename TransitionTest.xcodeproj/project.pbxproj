@@ -10,6 +10,11 @@
 		2D50108F19681FFC001E4505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50108E19681FFC001E4505 /* AppDelegate.swift */; };
 		2D50109119681FFC001E4505 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D50109019681FFC001E4505 /* Images.xcassets */; };
 		2D50109D19681FFC001E4505 /* TransitionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D50109C19681FFC001E4505 /* TransitionTestTests.swift */; };
+		2D5010A7196820A1001E4505 /* FromView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5010A6196820A1001E4505 /* FromView.swift */; };
+		2D5010A9196820AC001E4505 /* ToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5010A8196820AC001E4505 /* ToView.swift */; };
+		2D5010AB196820BD001E4505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5010AA196820BD001E4505 /* ViewController.swift */; };
+		2D5010AD19682975001E4505 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5010AC19682975001E4505 /* logo.png */; };
+		2D5010AF19682CCB001E4505 /* TransitionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5010AE19682CCB001E4505 /* TransitionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +35,11 @@
 		2D50109619681FFC001E4505 /* TransitionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D50109B19681FFC001E4505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D50109C19681FFC001E4505 /* TransitionTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTestTests.swift; sourceTree = "<group>"; };
+		2D5010A6196820A1001E4505 /* FromView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromView.swift; sourceTree = "<group>"; };
+		2D5010A8196820AC001E4505 /* ToView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToView.swift; sourceTree = "<group>"; };
+		2D5010AA196820BD001E4505 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D5010AC19682975001E4505 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2D5010AE19682CCB001E4505 /* TransitionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 				2D50108E19681FFC001E4505 /* AppDelegate.swift */,
 				2D50109019681FFC001E4505 /* Images.xcassets */,
 				2D50108C19681FFB001E4505 /* Supporting Files */,
+				2D5010A6196820A1001E4505 /* FromView.swift */,
+				2D5010A8196820AC001E4505 /* ToView.swift */,
+				2D5010AA196820BD001E4505 /* ViewController.swift */,
+				2D5010AC19682975001E4505 /* logo.png */,
+				2D5010AE19682CCB001E4505 /* TransitionTest.swift */,
 			);
 			path = TransitionTest;
 			sourceTree = "<group>";
@@ -183,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D50109119681FFC001E4505 /* Images.xcassets in Resources */,
+				2D5010AD19682975001E4505 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5010A9196820AC001E4505 /* ToView.swift in Sources */,
+				2D5010A7196820A1001E4505 /* FromView.swift in Sources */,
+				2D5010AB196820BD001E4505 /* ViewController.swift in Sources */,
+				2D5010AF19682CCB001E4505 /* TransitionTest.swift in Sources */,
 				2D50108F19681FFC001E4505 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
